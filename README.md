@@ -13,11 +13,7 @@ Start Clean offers a minimal ui that replaces Google Chrome's default page. It i
 
 [Donate to dev](https://www.paypal.me/rawas)
 
-![](http://i.imgur.com/PnM9k1S.png)
-
-![](http://i.imgur.com/bHBfXLk.png)
-
-![](http://i.imgur.com/mIm30O8.png)
+![](https://lh3.googleusercontent.com/d8_Y914eTiPiobvHfIpdifHWtELvpCoThYGXd1APQOcoftzBttJ5tDkbHpLau6aTXbnUkvxb=s640-h400-e365-rw)
 
 Start Clean New Tab Page has less features and options than alternatives such as Awesome New Tab Page, but it is cleaner, faster, and has only what you need.
 
