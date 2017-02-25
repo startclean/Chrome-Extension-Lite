@@ -4,6 +4,7 @@ Start Clean Light is a version of the extension with no search.
 
 Start Clean offers a minimal ui that replaces Google Chrome's default page. It includes the top sites you visit, and can show your apps. You can add your own custom links and drag to reorder.
 
+ * Version 0.2.9 offers a text colour changer in the options. Thanks to elliottbweaver on github!
  * Version 0.2.8 removes search for the lite version.
  * Version 0.2.7 bundles code and fonts locally for offline usage.
  * Version 0.2.6 offers a background color changer in the options. Thank you to koopa1338 on github! 
