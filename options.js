@@ -13,6 +13,7 @@ function save_options() {
 	"l1name": l1name,
 	"l2name": l2name,
     "l3name": l3name,
+	"colourvalue": colourvalue,
 	"bgvalue": bgvalue,
 	"showApps": showApps,
 	"showTop": showTop
