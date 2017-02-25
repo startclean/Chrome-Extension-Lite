@@ -1,6 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
-	chrome.storage.sync.get({"colourvalue": "#b5b5a4"}, colourCallback);
-});
+chrome.storage.sync.get({"colourvalue": "#b5b5a4"}, colourCallback);
 var colourCallback = function(list) {
 var colour = list["colourvalue"];
 console.log(colour);
