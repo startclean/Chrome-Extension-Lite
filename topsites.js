@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function() {
 		if (items["showTop"] == true) {
 			listTopSites();
 		}
-	},{"colourvalue": "#b5b5a4"}, colourCallback});
+	},{"colourvalue": "#b5b5a4"}, colourCallback);
 });
 
 function listTopSites() { //get the top 5 sites from chrome
