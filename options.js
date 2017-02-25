@@ -2,10 +2,10 @@
 function save_options() {
 	var l1name = document.getElementById('l1').value;
 	var l2name = document.getElementById('l2').value;
-    var l3name = document.getElementById('l3').value;
+    	var l3name = document.getElementById('l3').value;
     
 	var bgvalue = document.getElementById('bg').value;
-    console.log(bgvalue);
+	var colourvalue = document.getElementById('textcolour').value;
 	var showApps = document.getElementById('apps').checked;
 	var showTop = document.getElementById('top').checked;
 
@@ -13,6 +13,7 @@ function save_options() {
 	"l1name": l1name,
 	"l2name": l2name,
     "l3name": l3name,
+	"colourvalue": colourvalue,
 	"bgvalue": bgvalue,
 	"showApps": showApps,
 	"showTop": showTop
@@ -33,15 +34,16 @@ function restore_options() {
   chrome.storage.sync.get({
     "l1name": "productivity",
 	"l2name": "subreddits",
-    "l3name": "distros",
+    	"l3name": "distros",
 	"bgvalue": "#222222",
+	"colourvalue": "#b5b5a4",
 	"showApps": true,
 	"showTop": true
   }, function(items) {
 	document.getElementById('l1').value = items["l1name"];
 	document.getElementById('l2').value = items["l2name"];
-    document.getElementById('l3').value = items["l3name"];
-      
+    	document.getElementById('l3').value = items["l3name"];
+      	document.getElementById("textcolour").value = items["colourvalue"]
 	document.getElementById('bg').value = items["bgvalue"];
 	document.getElementById('apps').checked = items["showApps"];
     document.getElementById('top').checked = items["showTop"];

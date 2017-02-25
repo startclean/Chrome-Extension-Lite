@@ -70,4 +70,3 @@ function listTopSites() { //get the top 5 sites from chrome
 }
 
 
-

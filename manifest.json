@@ -1,7 +1,7 @@
 {
     "name": "Start Clean New Tab Page Lite",
     "description": "Open a new tab with a clean & fast ui, no search",
-    "version": "0.2.8",
+    "version": "0.2.9",
     "manifest_version": 2,
     "permissions" : ["management", "storage", "topSites"],
     "chrome_url_overrides" : {
