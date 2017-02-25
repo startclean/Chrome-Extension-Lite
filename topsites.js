@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function() {
 		if (items["showTop"] == true) {
 			listTopSites();
 		}
-	});
+	},{"colourvalue": "#b5b5a4"}, colourCallback});
 });
 
 function listTopSites() { //get the top 5 sites from chrome
@@ -68,9 +68,6 @@ function listTopSites() { //get the top 5 sites from chrome
 	}
 	});
 }
-document.addEventListener("DOMContentLoaded", function() {
-	chrome.storage.sync.get({"colourvalue": "#b5b5a4"}, colourCallback);
-});
 var colourCallback = function(list) {
 var colour = list["colourvalue"];
 for (var i = 0; i < document.querySelectorAll("#topsites > li > a").length; i++) {
