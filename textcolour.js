@@ -10,7 +10,7 @@ for (var i = 0; i < document.getElementsByClassName("title").length; i++) {
     document.getElementsByClassName("title")[i].style.borderBottom = "1px solid " + colour;
 }
 for (var i = 0; i < document.querySelectorAll("ul > li > a").length; i++) {
-    document.getElementsByClassName("ul > li > a")[i].style.color = colour;
+    document.querySelectorAll("ul > li > a")[i].style.color = colour;
 }
 
 };
