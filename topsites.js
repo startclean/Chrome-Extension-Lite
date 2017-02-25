@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function() {
 var colour = list["colourvalue"];
 for (var i = 0; i < document.querySelectorAll("#topsites > li > a").length; i++) {
     document.querySelectorAll("#topsites > li > a")[i].style.color = colour;
-});
+};
 });
 
 function listTopSites() { //get the top 5 sites from chrome
