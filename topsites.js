@@ -52,7 +52,11 @@ document.addEventListener("DOMContentLoaded", function() {
 		if (items["showTop"] == true) {
 			listTopSites();
 		}
-	},{"colourvalue": "#b5b5a4"}, colourCallback);
+	},{"colourvalue": "#b5b5a4"}, function(list) {
+var colour = list["colourvalue"];
+for (var i = 0; i < document.querySelectorAll("#topsites > li > a").length; i++) {
+    document.querySelectorAll("#topsites > li > a")[i].style.color = colour;
+});
 });
 
 function listTopSites() { //get the top 5 sites from chrome
@@ -68,10 +72,3 @@ function listTopSites() { //get the top 5 sites from chrome
 	}
 	});
 }
-var colourCallback = function(list) {
-var colour = list["colourvalue"];
-for (var i = 0; i < document.querySelectorAll("#topsites > li > a").length; i++) {
-    document.querySelectorAll("#topsites > li > a")[i].style.color = colour;
-}
-
-
